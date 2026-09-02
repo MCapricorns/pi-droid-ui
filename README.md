@@ -87,13 +87,13 @@ npm run check
 
 ## Publish
 
-First publish is manual (`npm publish --access public`). Later releases use GitHub Actions OIDC (npm Trusted Publisher):
+Later releases use GitHub Actions OIDC (npm Trusted Publisher):
 
 1. On npmjs.com → `@ferris1225/pi-droid-ui` → **Trusted Publisher**
 2. GitHub org/user: `MCapricorns`
 3. Repository: `pi-droid-ui`
 4. Workflow: `publish.yml`
-5. Environment: `npm`
+5. Leave Environment empty (same as our other packages).
 
 Then bump `version` in `package.json`, tag/release or run **Publish npm**.
 
