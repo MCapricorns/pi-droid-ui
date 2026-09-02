@@ -1,6 +1,6 @@
 {
   "name": "@ferris1225/pi-droid-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combined Pi layout and theme pack: sting8k droid styling plus pi-themes, bundled as one extension.",
   "type": "module",
   "main": "dist/index.js",
